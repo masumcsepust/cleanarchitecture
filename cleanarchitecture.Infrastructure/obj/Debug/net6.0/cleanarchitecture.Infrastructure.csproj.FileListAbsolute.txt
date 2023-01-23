@@ -1,0 +1,17 @@
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Infrastructure.deps.json
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Infrastructure.dll
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Infrastructure.pdb
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\cleanarchitecture.Infrastructure.csproj.AssemblyReference.cache
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\cleanarchitecture.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\cleanarchitecture.Infrastructure.AssemblyInfoInputs.cache
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\cleanarchitecture.Infrastructure.AssemblyInfo.cs
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\cleanarchitecture.Infrastructure.csproj.CoreCompileInputs.cache
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\cleanarchitecture.Infrastructure.dll
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\refint\cleanarchitecture.Infrastructure.dll
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\cleanarchitecture.Infrastructure.pdb
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\ref\cleanarchitecture.Infrastructure.dll
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Application.dll
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Domain.dll
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Application.pdb
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Domain.pdb
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\cleanarchitecture.Infrastructure.csproj.CopyComplete
