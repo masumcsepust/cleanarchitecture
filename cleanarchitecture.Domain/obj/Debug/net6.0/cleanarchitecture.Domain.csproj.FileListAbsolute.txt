@@ -10,3 +10,6 @@ E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0
 E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0\refint\cleanarchitecture.Domain.dll
 E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0\cleanarchitecture.Domain.pdb
 E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0\ref\cleanarchitecture.Domain.dll
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Domain\bin\Debug\net6.0\cleanarchitecture.Contracts.dll
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Domain\bin\Debug\net6.0\cleanarchitecture.Contracts.pdb
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0\cleanarchitecture.Domain.csproj.CopyComplete

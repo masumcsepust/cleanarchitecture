@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gU7sYN0wV5wJlMEwnVDVOCPMum1oQ2uVCEyip3MW6msDWdLjSEknbCamMEKcmY0nV3zQHj2PY7oHt+o/JifrOw==",
+  "dgSpecHash": "cfK1luZ/U97yQe3Kc5quAsYsqnWiDHzL9Ns5jWvcOGArqhO/FI+XLgVNVZMDawfOeXj2a07kn2VSbWPkbx1wLQ==",
   "success": true,
   "projectFilePath": "E:\\CleanArchitecture\\cleanarchitecture\\cleanarchitecture.API\\cleanarchitecture.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",

@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "cleanarchitecture.Domain/1.0.0": {
+        "dependencies": {
+          "cleanarchitecture.Contracts": "1.0.0"
+        },
         "runtime": {
           "cleanarchitecture.Domain.dll": {}
+        }
+      },
+      "cleanarchitecture.Contracts/1.0.0": {
+        "runtime": {
+          "cleanarchitecture.Contracts.dll": {}
         }
       }
     }
   },
   "libraries": {
     "cleanarchitecture.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "cleanarchitecture.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

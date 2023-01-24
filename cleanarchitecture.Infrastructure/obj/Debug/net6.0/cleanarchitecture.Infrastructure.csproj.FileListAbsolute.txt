@@ -15,3 +15,5 @@ E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debu
 E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Application.pdb
 E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Domain.pdb
 E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\cleanarchitecture.Infrastructure.csproj.CopyComplete
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Contracts.dll
+E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Contracts.pdb

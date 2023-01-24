@@ -112,8 +112,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\CleanArchitecture\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj": {
-                "projectPath": "E:\\CleanArchitecture\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj"
+              "e:\\CleanArchitecture\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj": {
+                "projectPath": "e:\\CleanArchitecture\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj"
               }
             }
           }
@@ -127,6 +127,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -207,14 +213,14 @@
         }
       }
     },
-    "E:\\CleanArchitecture\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj": {
+    "e:\\CleanArchitecture\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CleanArchitecture\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj",
+        "projectUniqueName": "e:\\CleanArchitecture\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj",
         "projectName": "cleanarchitecture.Domain",
-        "projectPath": "E:\\CleanArchitecture\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj",
+        "projectPath": "e:\\CleanArchitecture\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\CleanArchitecture\\cleanarchitecture\\cleanarchitecture.Domain\\obj\\",
+        "outputPath": "e:\\CleanArchitecture\\cleanarchitecture\\cleanarchitecture.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
@@ -235,7 +241,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\CleanArchitecture\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj": {
+                "projectPath": "E:\\CleanArchitecture\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -311,6 +321,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
