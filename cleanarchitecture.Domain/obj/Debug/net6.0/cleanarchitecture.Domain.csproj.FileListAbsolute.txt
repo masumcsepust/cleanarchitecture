@@ -13,3 +13,18 @@ E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0
 E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Domain\bin\Debug\net6.0\cleanarchitecture.Contracts.dll
 E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Domain\bin\Debug\net6.0\cleanarchitecture.Contracts.pdb
 E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0\cleanarchitecture.Domain.csproj.CopyComplete
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Domain\bin\Debug\net6.0\cleanarchitecture.Domain.deps.json
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Domain\bin\Debug\net6.0\cleanarchitecture.Domain.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Domain\bin\Debug\net6.0\cleanarchitecture.Domain.pdb
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Domain\bin\Debug\net6.0\cleanarchitecture.Contracts.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Domain\bin\Debug\net6.0\cleanarchitecture.Contracts.pdb
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0\cleanarchitecture.Domain.csproj.AssemblyReference.cache
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0\cleanarchitecture.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0\cleanarchitecture.Domain.AssemblyInfoInputs.cache
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0\cleanarchitecture.Domain.AssemblyInfo.cs
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0\cleanarchitecture.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0\cleanarchitecture.Domain.csproj.CopyComplete
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0\cleanarchitecture.Domain.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0\refint\cleanarchitecture.Domain.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0\cleanarchitecture.Domain.pdb
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Domain\obj\Debug\net6.0\ref\cleanarchitecture.Domain.dll

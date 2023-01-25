@@ -33,3 +33,38 @@ E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cl
 E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Application.pdb
 E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Infrastructure.pdb
 E:\CleanArchitecture\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Domain.pdb
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\appsettings.json
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.API.exe
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.API.deps.json
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.API.runtimeconfig.json
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.API.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.API.pdb
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Application.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Contracts.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Domain.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Infrastructure.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Contracts.pdb
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Application.pdb
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Infrastructure.pdb
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Domain.pdb
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.csproj.AssemblyReference.cache
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.AssemblyInfoInputs.cache
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.AssemblyInfo.cs
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.csproj.CoreCompileInputs.cache
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\scopedcss\bundle\cleanarchitecture.API.styles.css
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.csproj.CopyComplete
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\refint\cleanarchitecture.API.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.pdb
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.genruntimeconfig.cache
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\ref\cleanarchitecture.API.dll
