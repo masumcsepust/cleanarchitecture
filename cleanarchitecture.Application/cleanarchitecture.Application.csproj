@@ -11,9 +11,9 @@
   </ItemGroup>
   
   
-<ItemGroup>
+<!-- <ItemGroup>
     <ProjectReference Include="..\cleanarchitecture.Domain\cleanarchitecture.Domain.csproj" />
-</ItemGroup>
+</ItemGroup> -->
  
 
 </Project>

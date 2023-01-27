@@ -32,3 +32,15 @@ C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.App
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Application\obj\Debug\net6.0\refint\cleanarchitecture.Application.dll
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Application\obj\Debug\net6.0\cleanarchitecture.Application.pdb
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Application\obj\Debug\net6.0\ref\cleanarchitecture.Application.dll
+E:\projects\cleanarchitecture\cleanarchitecture.Application\bin\Debug\net6.0\cleanarchitecture.Application.deps.json
+E:\projects\cleanarchitecture\cleanarchitecture.Application\bin\Debug\net6.0\cleanarchitecture.Application.dll
+E:\projects\cleanarchitecture\cleanarchitecture.Application\bin\Debug\net6.0\cleanarchitecture.Application.pdb
+E:\projects\cleanarchitecture\cleanarchitecture.Application\obj\Debug\net6.0\cleanarchitecture.Application.csproj.AssemblyReference.cache
+E:\projects\cleanarchitecture\cleanarchitecture.Application\obj\Debug\net6.0\cleanarchitecture.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\cleanarchitecture\cleanarchitecture.Application\obj\Debug\net6.0\cleanarchitecture.Application.AssemblyInfoInputs.cache
+E:\projects\cleanarchitecture\cleanarchitecture.Application\obj\Debug\net6.0\cleanarchitecture.Application.AssemblyInfo.cs
+E:\projects\cleanarchitecture\cleanarchitecture.Application\obj\Debug\net6.0\cleanarchitecture.Application.csproj.CoreCompileInputs.cache
+E:\projects\cleanarchitecture\cleanarchitecture.Application\obj\Debug\net6.0\cleanarchitecture.Application.dll
+E:\projects\cleanarchitecture\cleanarchitecture.Application\obj\Debug\net6.0\refint\cleanarchitecture.Application.dll
+E:\projects\cleanarchitecture\cleanarchitecture.Application\obj\Debug\net6.0\cleanarchitecture.Application.pdb
+E:\projects\cleanarchitecture\cleanarchitecture.Application\obj\Debug\net6.0\ref\cleanarchitecture.Application.dll

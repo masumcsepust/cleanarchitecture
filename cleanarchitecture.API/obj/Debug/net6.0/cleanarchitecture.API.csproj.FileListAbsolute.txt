@@ -68,3 +68,40 @@ C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.pdb
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.genruntimeconfig.cache
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\ref\cleanarchitecture.API.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\refint\cleanarchitecture.API.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.pdb
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\appsettings.Development.json
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\appsettings.json
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.API.exe
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.API.deps.json
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.API.runtimeconfig.json
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.API.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.API.pdb
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Application.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Contracts.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Infrastructure.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Contracts.pdb
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Application.pdb
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Infrastructure.pdb
+E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.csproj.AssemblyReference.cache
+E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.AssemblyInfoInputs.cache
+E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.AssemblyInfo.cs
+E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.csproj.CoreCompileInputs.cache
+E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.MvcApplicationPartsAssemblyInfo.cs
+E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.MvcApplicationPartsAssemblyInfo.cache
+E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\staticwebassets.build.json
+E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\staticwebassets.development.json
+E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\scopedcss\bundle\cleanarchitecture.API.styles.css
+E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.csproj.CopyComplete
+E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.genruntimeconfig.cache
+E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\ref\cleanarchitecture.API.dll

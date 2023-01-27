@@ -22,3 +22,15 @@ C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Con
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Contracts\obj\Debug\net6.0\refint\cleanarchitecture.Contracts.dll
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Contracts\obj\Debug\net6.0\cleanarchitecture.Contracts.pdb
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Contracts\obj\Debug\net6.0\ref\cleanarchitecture.Contracts.dll
+E:\projects\cleanarchitecture\cleanarchitecture.Contracts\bin\Debug\net6.0\cleanarchitecture.Contracts.deps.json
+E:\projects\cleanarchitecture\cleanarchitecture.Contracts\bin\Debug\net6.0\cleanarchitecture.Contracts.dll
+E:\projects\cleanarchitecture\cleanarchitecture.Contracts\bin\Debug\net6.0\cleanarchitecture.Contracts.pdb
+E:\projects\cleanarchitecture\cleanarchitecture.Contracts\obj\Debug\net6.0\cleanarchitecture.Contracts.csproj.AssemblyReference.cache
+E:\projects\cleanarchitecture\cleanarchitecture.Contracts\obj\Debug\net6.0\cleanarchitecture.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\cleanarchitecture\cleanarchitecture.Contracts\obj\Debug\net6.0\cleanarchitecture.Contracts.AssemblyInfoInputs.cache
+E:\projects\cleanarchitecture\cleanarchitecture.Contracts\obj\Debug\net6.0\cleanarchitecture.Contracts.AssemblyInfo.cs
+E:\projects\cleanarchitecture\cleanarchitecture.Contracts\obj\Debug\net6.0\cleanarchitecture.Contracts.csproj.CoreCompileInputs.cache
+E:\projects\cleanarchitecture\cleanarchitecture.Contracts\obj\Debug\net6.0\cleanarchitecture.Contracts.dll
+E:\projects\cleanarchitecture\cleanarchitecture.Contracts\obj\Debug\net6.0\refint\cleanarchitecture.Contracts.dll
+E:\projects\cleanarchitecture\cleanarchitecture.Contracts\obj\Debug\net6.0\cleanarchitecture.Contracts.pdb
+E:\projects\cleanarchitecture\cleanarchitecture.Contracts\obj\Debug\net6.0\ref\cleanarchitecture.Contracts.dll

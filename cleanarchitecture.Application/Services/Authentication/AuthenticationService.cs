@@ -6,10 +6,11 @@ public class AuthenticationService: IAuthenticationService
 {
     private readonly IJwtTokenGenerator _iJwtTokenGenerator;
 
-    public AuthenticationService(IJwtTokenGenerator iJwtTokenGenerator)
+public AuthenticationService(IJwtTokenGenerator iJwtTokenGenerator)
     {
         _iJwtTokenGenerator = iJwtTokenGenerator;
     }
+    
 
     public AuthenticationResult Register(string FirstName, string LastName, string Email, string Password)
     {
