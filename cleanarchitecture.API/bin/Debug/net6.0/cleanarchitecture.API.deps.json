@@ -705,7 +705,8 @@
       "cleanarchitecture.Application/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "System.IdentityModel.Tokens.Jwt": "5.0.0"
+          "System.IdentityModel.Tokens.Jwt": "5.0.0",
+          "cleanarchitecture.Domain": "1.0.0"
         },
         "runtime": {
           "cleanarchitecture.Application.dll": {}
@@ -717,6 +718,11 @@
         },
         "runtime": {
           "cleanarchitecture.Contracts.dll": {}
+        }
+      },
+      "cleanarchitecture.Domain/1.0.0": {
+        "runtime": {
+          "cleanarchitecture.Domain.dll": {}
         }
       },
       "cleanarchitecture.Infrastructure/1.0.0": {
@@ -1234,6 +1240,11 @@
       "sha512": ""
     },
     "cleanarchitecture.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "cleanarchitecture.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

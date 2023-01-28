@@ -21,11 +21,7 @@ C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Inf
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Infrastructure.dll
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Infrastructure.pdb
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Application.dll
-C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Contracts.dll
-C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Domain.dll
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Application.pdb
-C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Contracts.pdb
-C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Domain.pdb
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\cleanarchitecture.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\cleanarchitecture.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\cleanarchitecture.Infrastructure.AssemblyInfoInputs.cache
@@ -51,3 +47,5 @@ E:\projects\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\
 E:\projects\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Application.pdb
 E:\projects\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\cleanarchitecture.Infrastructure.csproj.CopyComplete
 E:\projects\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\ref\cleanarchitecture.Infrastructure.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Domain.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Domain.pdb

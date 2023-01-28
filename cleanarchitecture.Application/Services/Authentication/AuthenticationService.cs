@@ -1,43 +1,66 @@
 using cleanarchitecture.Application.Common.Interfaces.Authentication;
+using cleanarchitecture.Application.Common.Interfaces.Persistence;
+using cleanarchitecture.Domain.Entities;
 
 namespace cleanarchitecture.Application.Services.Authentication;
 
 public class AuthenticationService: IAuthenticationService
 {
     private readonly IJwtTokenGenerator _iJwtTokenGenerator;
-
-public AuthenticationService(IJwtTokenGenerator iJwtTokenGenerator)
+    private readonly IUserRepository _iUserRepository;
+public AuthenticationService(IJwtTokenGenerator iJwtTokenGenerator, IUserRepository iUserRepository)
     {
         _iJwtTokenGenerator = iJwtTokenGenerator;
+        _iUserRepository = iUserRepository;
     }
-    
 
-    public AuthenticationResult Register(string FirstName, string LastName, string Email, string Password)
+    public AuthenticationResult Register(string firstName, string lastName, string email, string password)
     {
-        // check if user already exists
+        // 1. valid the user doesn't exist
+        if(_iUserRepository.GetUserByEmail(email) is not null) 
+        {
+            throw new System.Exception("User with given email already exists.");
+        }
 
-        // Create user (generate unique id)
+
+        // 2. Create user (generate unique id) & Persist to DB
+        var user = new User {
+            FirstName = firstName,
+            LastName = lastName,
+            Email = email,
+            Password = password,
+        };
+
+        _iUserRepository.Add(user);
 
         // create JWT token
-        Guid userId = Guid.NewGuid();
-        var token = _iJwtTokenGenerator.GenerateToken(userId, FirstName, LastName);
+        var token = _iJwtTokenGenerator.GenerateToken(user);
         return new AuthenticationResult(
-            Guid.NewGuid(),
-            FirstName,
-            LastName,
-            Email,
+            user,
             token
         );
     }
 
-    public AuthenticationResult Login(string Email, string Password)
+    public AuthenticationResult Login(string email, string password)
     {
+        // 1. Validate the user exists
+        if(_iUserRepository.GetUserByEmail(email) is not User user) 
+        {
+            throw new System.Exception("user with given email does not exist.");
+        }
+
+        // 2. Validate the password is corrects
+        if(user.Password != password) 
+        {
+            throw new System.Exception("Invalid password");
+        }
+        
+        // 3. create jwt token
+        var token = _iJwtTokenGenerator.GenerateToken(user);
+
         return new AuthenticationResult(
-            Guid.NewGuid(),
-            "Masum",
-            "Billah",
-            Email,
-            "token"
+            user,
+            token
         );
     }
 }

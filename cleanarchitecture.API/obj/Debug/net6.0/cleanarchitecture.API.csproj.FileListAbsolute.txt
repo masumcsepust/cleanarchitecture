@@ -46,12 +46,10 @@ C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Application.dll
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Contracts.dll
-C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Domain.dll
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Infrastructure.dll
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Contracts.pdb
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Application.pdb
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Infrastructure.pdb
-C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Domain.pdb
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.csproj.AssemblyReference.cache
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.AssemblyInfoInputs.cache
@@ -105,3 +103,9 @@ E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\scopedcss\b
 E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.csproj.CopyComplete
 E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\cleanarchitecture.API.genruntimeconfig.cache
 E:\projects\cleanarchitecture\cleanarchitecture.API\obj\Debug\net6.0\ref\cleanarchitecture.API.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Domain.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Domain.pdb

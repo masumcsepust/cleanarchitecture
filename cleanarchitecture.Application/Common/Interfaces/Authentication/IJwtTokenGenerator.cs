@@ -1,6 +1,8 @@
+using cleanarchitecture.Domain.Entities;
+
 namespace cleanarchitecture.Application.Common.Interfaces.Authentication;
 
 public interface IJwtTokenGenerator
 {
-    string GenerateToken(Guid Id, string firstName, string lastName);
+    string GenerateToken(User user);
 }

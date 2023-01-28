@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj": {}
+    "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj": {}
   },
   "projects": {
-    "E:\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj": {
+    "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj",
-        "projectName": "cleanarchitecture.Contracts",
-        "projectPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\obj\\",
+        "projectUniqueName": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj",
+        "projectName": "cleanarchitecture.Domain",
+        "projectPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj",
+        "packagesPath": "C:\\Users\\SHAHIN RAHAMAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SHAHIN RAHAMAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,82 +44,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj",
-        "projectName": "cleanarchitecture.Domain",
-        "projectPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "E:\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj": {
-                "projectPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

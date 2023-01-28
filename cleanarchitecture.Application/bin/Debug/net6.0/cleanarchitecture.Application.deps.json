@@ -9,7 +9,8 @@
       "cleanarchitecture.Application/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "System.IdentityModel.Tokens.Jwt": "5.0.0"
+          "System.IdentityModel.Tokens.Jwt": "5.0.0",
+          "cleanarchitecture.Domain": "1.0.0"
         },
         "runtime": {
           "cleanarchitecture.Application.dll": {}
@@ -622,6 +623,11 @@
           "System.Threading": "4.0.11",
           "System.Xml.ReaderWriter": "4.0.11"
         }
+      },
+      "cleanarchitecture.Domain/1.0.0": {
+        "runtime": {
+          "cleanarchitecture.Domain.dll": {}
+        }
       }
     }
   },
@@ -1029,6 +1035,11 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "cleanarchitecture.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -4,8 +4,8 @@ POST https://localhost:7213/api/auth/register
 Content-Type: application/json
 
 {
-    "FirstName": "Masum",
-    "LastName": "Billah",
-    "Email": "masumcsepust@gmail.com",
-    "Password": "mdkms12345"
+    "FirstName": "Dider",
+    "LastName": "Ullah",
+    "Email": "diderullah@gmail.com",
+    "Password": "dider"
 }
