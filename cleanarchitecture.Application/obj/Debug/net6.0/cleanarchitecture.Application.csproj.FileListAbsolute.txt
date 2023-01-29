@@ -42,3 +42,6 @@ E:\projects\cleanarchitecture\cleanarchitecture.Application\obj\Debug\net6.0\ref
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Application\bin\Debug\net6.0\cleanarchitecture.Domain.dll
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Application\bin\Debug\net6.0\cleanarchitecture.Domain.pdb
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Application\obj\Debug\net6.0\cleanarchitecture.Application.csproj.CopyComplete
+E:\projects\cleanarchitecture\cleanarchitecture.Application\bin\Debug\net6.0\cleanarchitecture.Domain.dll
+E:\projects\cleanarchitecture\cleanarchitecture.Application\bin\Debug\net6.0\cleanarchitecture.Domain.pdb
+E:\projects\cleanarchitecture\cleanarchitecture.Application\obj\Debug\net6.0\cleanarchitecture.Application.csproj.CopyComplete
