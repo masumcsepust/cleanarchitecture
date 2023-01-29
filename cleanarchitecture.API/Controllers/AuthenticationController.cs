@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using cleanarchitecture.Application.Services.Authentication;
 using cleanarchitecture.Contracts.Authentication;
 using Microsoft.AspNetCore.Mvc;
@@ -10,6 +6,7 @@ namespace cleanarchitecture.API.Controllers
 {
     [ApiController]
     [Route("api/auth")]
+    //[ErrorHandlingFilterAttribute]
     public class AuthenticationController : ControllerBase
     {
         private readonly IAuthenticationService _authenticationService;
