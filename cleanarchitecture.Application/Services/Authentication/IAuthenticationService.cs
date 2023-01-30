@@ -1,11 +1,11 @@
 using cleanarchitecture.Application.Common.Errors;
-using OneOf;
+using FluentResults;
 
 namespace cleanarchitecture.Application.Services.Authentication
 {
     public interface IAuthenticationService
     {
-        OneOf<AuthenticationResult, DuplicateEmailError> Register(string FirstName, string LastName, string Email, string Password);
+        Result<AuthenticationResult> Register(string FirstName, string LastName, string Email, string Password);
         AuthenticationResult Login(string Email, string Password);
     }
 }

@@ -58,6 +58,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "fluentResults": {
+              "target": "Package",
+              "version": "[3.15.1, )"
             }
           },
           "imports": [
@@ -136,9 +140,9 @@
               "target": "Package",
               "version": "[5.0.0, )"
             },
-            "oneof": {
+            "fluentResults": {
               "target": "Package",
-              "version": "[3.0.223, )"
+              "version": "[3.15.1, )"
             }
           },
           "imports": [

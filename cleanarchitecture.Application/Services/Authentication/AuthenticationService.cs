@@ -2,7 +2,7 @@ using cleanarchitecture.Application.Common.Errors;
 using cleanarchitecture.Application.Common.Interfaces.Authentication;
 using cleanarchitecture.Application.Common.Interfaces.Persistence;
 using cleanarchitecture.Domain.Entities;
-using OneOf;
+using FluentResults;
 
 namespace cleanarchitecture.Application.Services.Authentication;
 
@@ -16,12 +16,12 @@ public AuthenticationService(IJwtTokenGenerator iJwtTokenGenerator, IUserReposit
         _iUserRepository = iUserRepository;
     }
 
-    public OneOf<AuthenticationResult, DuplicateEmailError> Register(string firstName, string lastName, string email, string password)
+    public Result<AuthenticationResult> Register(string firstName, string lastName, string email, string password)
     {
         // 1. valid the user doesn't exist
         if(_iUserRepository.GetUserByEmail(email) is not null) 
         {
-            return new DuplicateEmailError();
+            return Result.Fail<AuthenticationResult>(new[] { new DuplicateEmailError() });
         }
 
 
