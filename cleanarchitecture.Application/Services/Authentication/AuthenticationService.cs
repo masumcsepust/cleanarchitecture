@@ -1,3 +1,4 @@
+using cleanarchitecture.Application.Common.Errors;
 using cleanarchitecture.Application.Common.Interfaces.Authentication;
 using cleanarchitecture.Application.Common.Interfaces.Persistence;
 using cleanarchitecture.Domain.Entities;
@@ -19,7 +20,7 @@ public AuthenticationService(IJwtTokenGenerator iJwtTokenGenerator, IUserReposit
         // 1. valid the user doesn't exist
         if(_iUserRepository.GetUserByEmail(email) is not null) 
         {
-            throw new System.Exception("User with given email already exists.");
+            throw new DuplicateEmailException();
         }
 
 

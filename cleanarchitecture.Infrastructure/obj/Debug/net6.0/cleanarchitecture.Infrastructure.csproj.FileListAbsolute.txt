@@ -49,3 +49,5 @@ E:\projects\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\
 E:\projects\cleanarchitecture\cleanarchitecture.Infrastructure\obj\Debug\net6.0\ref\cleanarchitecture.Infrastructure.dll
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Domain.dll
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Domain.pdb
+E:\projects\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Domain.dll
+E:\projects\cleanarchitecture\cleanarchitecture.Infrastructure\bin\Debug\net6.0\cleanarchitecture.Domain.pdb
