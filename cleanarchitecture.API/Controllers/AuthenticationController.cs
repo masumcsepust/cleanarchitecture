@@ -1,6 +1,9 @@
+using cleanarchitecture.Application.Common.Errors;
+using cleanarchitecture.Application.Services;
 using cleanarchitecture.Application.Services.Authentication;
 using cleanarchitecture.Contracts.Authentication;
 using Microsoft.AspNetCore.Mvc;
+using OneOf;
 
 namespace cleanarchitecture.API.Controllers
 {
@@ -19,22 +22,59 @@ namespace cleanarchitecture.API.Controllers
         [HttpPost("register")]
         public IActionResult Register(RegisterRequest request) 
         {
-            var authResult = _authenticationService.Register(
+            // var authResult = _authenticationService.Register(
+            //     request.FirstName, 
+            //     request.LastName, 
+            //     request.Email, 
+            //     request.Password
+            // );
+            
+            // var response = new AuthenticationResponse(
+            //     authResult.user.Id,
+            //     authResult.user.FirstName,
+            //     authResult.user.LastName,
+            //     authResult.user.Email,
+            //     authResult.Token
+            // );
+
+            OneOf<AuthenticationResult, DuplicateEmailError> registerResult = _authenticationService.Register(
                 request.FirstName, 
                 request.LastName, 
                 request.Email, 
                 request.Password
             );
             
-            var response = new AuthenticationResponse(
+            // if(registerResult.IsT0) 
+            // {
+            //     var authResult = registerResult.AsT0;
+            //     var response = new AuthenticationResponse(
+            //         authResult.user.Id,
+            //         authResult.user.FirstName,
+            //         authResult.user.LastName,
+            //         authResult.user.Email,
+            //         authResult.Token
+            //     );
+                
+            //     return Ok(response);
+            // }
+
+            // return Problem(statusCode: StatusCodes.Status409Conflict, title: "Email already exists.");
+
+            return registerResult.Match(
+                authResult => Ok(MapAuthResult(authResult)),
+                _ => Problem(statusCode: StatusCodes.Status409Conflict, title: "Email already exists.")
+            );
+        }
+
+        private static AuthenticationResponse MapAuthResult(AuthenticationResult authResult)
+        {
+            return new AuthenticationResponse(
                 authResult.user.Id,
                 authResult.user.FirstName,
                 authResult.user.LastName,
                 authResult.user.Email,
                 authResult.Token
             );
-
-            return Ok(response);
         }
 
         [HttpPost("login")]

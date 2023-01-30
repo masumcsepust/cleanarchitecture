@@ -281,6 +281,15 @@
           }
         }
       },
+      "OneOf/3.0.223": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/OneOf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OneOf.dll": {}
+        }
+      },
       "runtime.native.System/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -1293,7 +1302,8 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "System.IdentityModel.Tokens.Jwt": "5.0.0",
-          "cleanarchitecture.Domain": "1.0.0"
+          "cleanarchitecture.Domain": "1.0.0",
+          "oneof": "3.0.223"
         },
         "compile": {
           "bin/placeholder/cleanarchitecture.Application.dll": {}
@@ -1679,6 +1689,21 @@
         "newtonsoft.json.9.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "OneOf/3.0.223": {
+      "sha512": "YWabiHBFfDdKIO7/TEa72mARVVo5u5FqFnfXuTqjIupMvJlhoH8d0m4uKtczaINuT0vGR1qlXJayeU6bTw5myg==",
+      "type": "package",
+      "path": "oneof/3.0.223",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/OneOf.dll",
+        "lib/net45/OneOf.dll",
+        "lib/netstandard1.3/OneOf.dll",
+        "lib/netstandard2.0/OneOf.dll",
+        "oneof.3.0.223.nupkg.sha512",
+        "oneof.nuspec"
       ]
     },
     "runtime.native.System/4.0.0": {
@@ -4510,23 +4535,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {},
+    "C:\\Users\\SHAHIN RAHAMAN\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\projects\\cleanarchitecture\\cleanarchitecture.API\\cleanarchitecture.API.csproj",
+      "projectUniqueName": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.API\\cleanarchitecture.API.csproj",
       "projectName": "cleanarchitecture.API",
-      "projectPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.API\\cleanarchitecture.API.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.API\\obj\\",
+      "projectPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.API\\cleanarchitecture.API.csproj",
+      "packagesPath": "C:\\Users\\SHAHIN RAHAMAN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SHAHIN RAHAMAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4542,14 +4567,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\projects\\cleanarchitecture\\cleanarchitecture.Application\\cleanarchitecture.Application.csproj": {
-              "projectPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Application\\cleanarchitecture.Application.csproj"
+            "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Application\\cleanarchitecture.Application.csproj": {
+              "projectPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Application\\cleanarchitecture.Application.csproj"
             },
-            "E:\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj": {
-              "projectPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj"
+            "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj": {
+              "projectPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj"
             },
-            "E:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj": {
-              "projectPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj"
+            "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj"
             }
           }
         }
