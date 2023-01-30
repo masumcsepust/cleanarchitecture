@@ -3912,23 +3912,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SHAHIN RAHAMAN\\.nuget\\packages\\": {},
+    "C:\\Users\\Dell\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj",
+      "projectUniqueName": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj",
       "projectName": "cleanarchitecture.Contracts",
-      "projectPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj",
-      "packagesPath": "C:\\Users\\SHAHIN RAHAMAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\obj\\",
+      "projectPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj",
+      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+      "outputPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
       ],
       "configFilePaths": [
-        "C:\\Users\\SHAHIN RAHAMAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
