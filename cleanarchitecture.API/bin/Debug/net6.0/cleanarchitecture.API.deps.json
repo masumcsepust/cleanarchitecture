@@ -18,6 +18,14 @@
           "cleanarchitecture.API.dll": {}
         }
       },
+      "ErrorOr/1.2.1": {
+        "runtime": {
+          "lib/net6.0/ErrorOr.dll": {
+            "assemblyVersion": "1.2.1.0",
+            "fileVersion": "1.2.1.0"
+          }
+        }
+      },
       "FluentResults/3.15.1": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
@@ -719,6 +727,7 @@
       },
       "cleanarchitecture.Application/1.0.0": {
         "dependencies": {
+          "ErrorOr": "1.2.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "System.IdentityModel.Tokens.Jwt": "5.0.0",
           "cleanarchitecture.Domain": "1.0.0",
@@ -737,6 +746,9 @@
         }
       },
       "cleanarchitecture.Domain/1.0.0": {
+        "dependencies": {
+          "ErrorOr": "1.2.1"
+        },
         "runtime": {
           "cleanarchitecture.Domain.dll": {}
         }
@@ -759,6 +771,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "ErrorOr/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5xcbQErEPQKq2z/sLwSaFPX3T2G7x4ISX0us0X7jSxXSQT/wlfOOhw4knPUN/GWOf2strhuzdvRA36JViwvu+A==",
+      "path": "erroror/1.2.1",
+      "hashPath": "erroror.1.2.1.nupkg.sha512"
     },
     "FluentResults/3.15.1": {
       "type": "package",

@@ -16,6 +16,7 @@
     <ProjectReference Include="..\cleanarchitecture.Contracts\cleanarchitecture.Contracts.csproj" />
     <ProjectReference Include="..\cleanarchitecture.Application\cleanarchitecture.Application.csproj" />
     <ProjectReference Include="..\cleanarchitecture.Infrastructure\cleanarchitecture.Infrastructure.csproj" />
+    <ProjectReference Include="..\cleanarchitecture.Domain\cleanarchitecture.Domain.csproj" />
   </ItemGroup>
 
 </Project>

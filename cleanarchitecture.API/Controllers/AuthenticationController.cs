@@ -2,15 +2,18 @@ using cleanarchitecture.Application.Common.Errors;
 using cleanarchitecture.Application.Services;
 using cleanarchitecture.Application.Services.Authentication;
 using cleanarchitecture.Contracts.Authentication;
+using ErrorOr;
 using FluentResults;
 using Microsoft.AspNetCore.Mvc;
+using cleanarchitecture.Domain.Common.Errors;
+
 
 namespace cleanarchitecture.API.Controllers
 {
     [ApiController]
     [Route("api/auth")]
     //[ErrorHandlingFilterAttribute]
-    public class AuthenticationController : ControllerBase
+    public class AuthenticationController : ApiController
     {
         private readonly IAuthenticationService _authenticationService;
 
@@ -65,23 +68,45 @@ namespace cleanarchitecture.API.Controllers
             //     error => Problem(statusCode: (int)error.StatusCode, title: error.ErrorMessage)
             // );
 
-            Result<AuthenticationResult> registerResult = _authenticationService.Register(
+            // Result<AuthenticationResult> registerResult = _authenticationService.Register(
+            //     request.FirstName, 
+            //     request.LastName, 
+            //     request.Email, 
+            //     request.Password
+            // );
+
+            // if(registerResult.IsSuccess) 
+            //     return Ok(registerResult.Value);
+            
+            // var firstError = registerResult.Errors[0];
+
+            // if(firstError is DuplicateEmailError)
+            //     return Problem(statusCode: StatusCodes.Status409Conflict, title: "Email already exists");
+            //return Problem();
+            
+            ErrorOr<AuthenticationResult> registerResult = _authenticationService.Register(
                 request.FirstName, 
                 request.LastName, 
                 request.Email, 
                 request.Password
             );
 
-            if(registerResult.IsSuccess) 
-                return Ok(registerResult.Value);
-            
-            var firstError = registerResult.Errors[0];
+            return registerResult.Match(
+                registerResult => Ok(MapAuthResult(registerResult)),
+                errors => Problem(errors)
+            );
 
-            if(firstError is DuplicateEmailError)
-                return Problem(statusCode: StatusCodes.Status409Conflict, title: "Email already exists");
-            
-            return Problem();
+        }
 
+        public static AuthenticationResponse NewMethod(AuthenticationResult authResult) 
+        {
+            return new AuthenticationResponse(
+                authResult.user.Id,
+                authResult.user.FirstName,
+                authResult.user.LastName,
+                authResult.user.Email,
+                authResult.Token
+            );
         }
 
         private static AuthenticationResponse MapAuthResult(AuthenticationResult authResult)
@@ -98,19 +123,35 @@ namespace cleanarchitecture.API.Controllers
         [HttpPost("login")]
         public IActionResult Login(LoginRequest request) 
         {
-            var authResult = _authenticationService.Login(
+            ErrorOr<AuthenticationResult> authResult = _authenticationService.Login(
                 request.Email, 
                 request.Password
                 );
-            var response = new AuthenticationResponse(
-                authResult.user.Id,
-                authResult.user.FirstName,
-                authResult.user.LastName,
-                authResult.user.Email,
-                authResult.Token
-            );
 
-            return Ok(response);
+
+            // var response = new AuthenticationResponse(
+            //     authResult.user.Id,
+            //     authResult.user.FirstName,
+            //     authResult.user.LastName,
+            //     authResult.user.Email,
+            //     authResult.Token
+            // );
+            // return authResult.MatchFirst(
+            //     authResult => Ok(NewMethod(authResult)),
+            //     firstError => Problem(statusCode: StatusCodes.Status409Conflict, title: firstError.Description)
+            // );
+            //return Ok(response);
+            if(authResult.IsError && authResult.FirstError==Errors.Authentication.InvalidCredential)
+                return 
+                    Problem(
+                        statusCode: StatusCodes.Status401Unauthorized, 
+                        title: authResult.FirstError.Description
+                    );
+
+            return authResult.Match(
+                authResult => Ok(MapAuthResult(authResult)),
+                errors => Problem(errors)
+            );
         }
     }
 }

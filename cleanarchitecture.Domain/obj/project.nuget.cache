@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Gk7ShVUEy91z0LmMCHxiC97z1/goOcekN8fN6S5SnsSfb0je4hrXAqYyFcYNnxcq5hGld0aj4yibkNnm8aP9Aw==",
+  "dgSpecHash": "NjlT0dVM7/hAhSGdRFIe4Jzwc/4yvMtL9cjZlgW4pQGyp8wSkJ7Qml7slKX7FmVOia5LXg0tDB2AMBIHQYT2cQ==",
   "success": true,
   "projectFilePath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512"
+  ],
   "logs": []
 }

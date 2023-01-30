@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kRflOxmS0PihThJXbPaK4d3EhvF3box61XC1VNi7E69VoVz8fq0O1cjyy2ovcDot1rqqZI1Eq1mG4izqFz/IAg==",
+  "dgSpecHash": "hiOaCOoUcz+vhO9cpOzCeD/vpdUJJn92uPvmMsLX+lY1R+Pjcsiy8W7hfgaqFLEZTdIGdxf1uVtETSMrbbLM1g==",
   "success": true,
-  "projectFilePath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj",
+  "projectFilePath": "e:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\fluentresults\\3.15.1\\fluentresults.3.15.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",

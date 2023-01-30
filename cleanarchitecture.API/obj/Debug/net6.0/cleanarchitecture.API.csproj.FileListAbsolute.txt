@@ -114,3 +114,4 @@ E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchit
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\OneOf.dll
 E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\FluentResults.dll
 E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\ErrorOr.dll

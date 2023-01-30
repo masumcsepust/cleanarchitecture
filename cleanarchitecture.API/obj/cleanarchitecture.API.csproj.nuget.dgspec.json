@@ -39,8 +39,8 @@
               "E:\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj": {
                 "projectPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Contracts\\cleanarchitecture.Contracts.csproj"
               },
-              "E:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj": {
-                "projectPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj"
+              "e:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj": {
+                "projectPath": "e:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj"
               }
             }
           }
@@ -132,6 +132,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -271,6 +275,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -291,14 +301,14 @@
         }
       }
     },
-    "E:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj": {
+    "e:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj",
+        "projectUniqueName": "e:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj",
         "projectName": "cleanarchitecture.Infrastructure",
-        "projectPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj",
+        "projectPath": "e:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\obj\\",
+        "outputPath": "e:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"

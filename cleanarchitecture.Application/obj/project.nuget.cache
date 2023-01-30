@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wuVAWYjBH4DtvfFGsFKjjoRsDLgGvxTymhZR8NMDV7HE2RxQGMawsO+yjubSabBPwWoEhCvE5ngTo9iN9SBxHg==",
+  "dgSpecHash": "kJEFB7VBxgdh1QXqxkJ0POO8ThjzGmmF9bnLQ+IKqfZkp1+fwHJ9To/cjZngpwZERE7U0oJIXwD2hYe+idgC9g==",
   "success": true,
   "projectFilePath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Application\\cleanarchitecture.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\fluentresults\\3.15.1\\fluentresults.3.15.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fbv8b9DjKTiVODBCUY53SgKaNCiZXctlWjV8b4moIkf8a6WmpOPl1NNFyBGbuCLdckzLM6EMGRAYWjiGHQBABg==",
+  "dgSpecHash": "oPXd0+yPvPX8dM7uxU7183wJ6HCo6XY/YppgMx/MnrlCdSlRhodq3f7IxLzjAeNIMAPz/ugyE5PYor7L/weAYw==",
   "success": true,
   "projectFilePath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.API\\cleanarchitecture.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\fluentresults\\3.15.1\\fluentresults.3.15.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
