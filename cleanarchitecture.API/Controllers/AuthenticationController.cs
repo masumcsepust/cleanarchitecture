@@ -5,6 +5,8 @@ using cleanarchitecture.Domain.Common.Errors;
 using cleanarchitecture.Application.Services.Authentication.Commands;
 using cleanarchitecture.Application.Services.Authentication.Queries;
 using cleanarchitecture.Application.Services.Authentication.Common;
+using MediatR;
+using cleanarchitecture.Application.Authentication.Commands;
 
 namespace cleanarchitecture.API.Controllers
 {
@@ -13,18 +15,25 @@ namespace cleanarchitecture.API.Controllers
     //[ErrorHandlingFilterAttribute]
     public class AuthenticationController : ApiController
     {
-        private readonly IAuthenticationCommandService _authenticationCommandsService;
-        private readonly IAuthenticationQueriesService _authenticationQueriesService;
+        // private readonly IAuthenticationCommandService _authenticationCommandsService;
+        // private readonly IAuthenticationQueriesService _authenticationQueriesService;
 
-        public AuthenticationController(IAuthenticationCommandService authenticationCommandsService,
-        IAuthenticationQueriesService authenticationQueriesService)
+        // public AuthenticationController(IAuthenticationCommandService authenticationCommandsService,
+        // IAuthenticationQueriesService authenticationQueriesService)
+        // {
+        //     _authenticationCommandsService = authenticationCommandsService;
+        //     _authenticationQueriesService = authenticationQueriesService;
+        // }
+
+        private readonly IMediator _mediator;
+
+        public AuthenticationController(IMediator mediator)
         {
-            _authenticationCommandsService = authenticationCommandsService;
-            _authenticationQueriesService = authenticationQueriesService;
+            _mediator = mediator;
         }
 
         [HttpPost("register")]
-        public IActionResult Register(RegisterRequest request) 
+        public async Task<IActionResult> Register(RegisterRequest request) 
         {
             // var authResult = _authenticationService.Register(
             //     request.FirstName, 
@@ -85,14 +94,23 @@ namespace cleanarchitecture.API.Controllers
             //     return Problem(statusCode: StatusCodes.Status409Conflict, title: "Email already exists");
             //return Problem();
             
-            ErrorOr<AuthenticationResult> registerResult = _authenticationCommandsService.Register(
+            // ErrorOr<AuthenticationResult> registerResult = _authenticationCommandsService.Register(
+            //     request.FirstName, 
+            //     request.LastName, 
+            //     request.Email, 
+            //     request.Password
+            // );
+
+            var command = new RegisterCommand(
                 request.FirstName, 
                 request.LastName, 
                 request.Email, 
                 request.Password
             );
 
-            return registerResult.Match(
+            ErrorOr<AuthenticationResult> authResult = await _mediator.Send(command);
+
+            return authResult.Match(
                 registerResult => Ok(MapAuthResult(registerResult)),
                 errors => Problem(errors)
             );
@@ -121,38 +139,38 @@ namespace cleanarchitecture.API.Controllers
             );
         }
 
-        [HttpPost("login")]
-        public IActionResult Login(LoginRequest request) 
-        {
-            ErrorOr<AuthenticationResult> authResult = _authenticationQueriesService.Login(
-                request.Email, 
-                request.Password
-                );
+        // [HttpPost("login")]
+        // public IActionResult Login(LoginRequest request) 
+        // {
+        //     ErrorOr<AuthenticationResult> authResult = _authenticationQueriesService.Login(
+        //         request.Email, 
+        //         request.Password
+        //         );
 
 
-            // var response = new AuthenticationResponse(
-            //     authResult.user.Id,
-            //     authResult.user.FirstName,
-            //     authResult.user.LastName,
-            //     authResult.user.Email,
-            //     authResult.Token
-            // );
-            // return authResult.MatchFirst(
-            //     authResult => Ok(NewMethod(authResult)),
-            //     firstError => Problem(statusCode: StatusCodes.Status409Conflict, title: firstError.Description)
-            // );
-            //return Ok(response);
-            if(authResult.IsError && authResult.FirstError==Errors.Authentication.InvalidCredential)
-                return 
-                    Problem(
-                        statusCode: StatusCodes.Status401Unauthorized, 
-                        title: authResult.FirstError.Description
-                    );
+        //     // var response = new AuthenticationResponse(
+        //     //     authResult.user.Id,
+        //     //     authResult.user.FirstName,
+        //     //     authResult.user.LastName,
+        //     //     authResult.user.Email,
+        //     //     authResult.Token
+        //     // );
+        //     // return authResult.MatchFirst(
+        //     //     authResult => Ok(NewMethod(authResult)),
+        //     //     firstError => Problem(statusCode: StatusCodes.Status409Conflict, title: firstError.Description)
+        //     // );
+        //     //return Ok(response);
+        //     if(authResult.IsError && authResult.FirstError==Errors.Authentication.InvalidCredential)
+        //         return 
+        //             Problem(
+        //                 statusCode: StatusCodes.Status401Unauthorized, 
+        //                 title: authResult.FirstError.Description
+        //             );
 
-            return authResult.Match(
-                authResult => Ok(MapAuthResult(authResult)),
-                errors => Problem(errors)
-            );
-        }
+        //     return authResult.Match(
+        //         authResult => Ok(MapAuthResult(authResult)),
+        //         errors => Problem(errors)
+        //     );
+        // }
     }
 }

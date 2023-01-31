@@ -117,3 +117,6 @@ E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\ErrorOr.dll
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\ErrorOr.dll
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\FluentResults.dll
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\MediatR.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\MediatR.Contracts.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

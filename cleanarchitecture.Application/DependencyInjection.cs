@@ -1,5 +1,5 @@
-using cleanarchitecture.Application.Services.Authentication.Commands;
-using cleanarchitecture.Application.Services.Authentication.Queries;
+
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace cleanarchitecture.Application
@@ -8,8 +8,9 @@ namespace cleanarchitecture.Application
     {
         public static IServiceCollection AddApplication(this IServiceCollection services) 
         {
-            services.AddScoped<IAuthenticationCommandService, AuthenticationCommandService>();
-            services.AddScoped<IAuthenticationQueriesService, AuthenticationQueriesService>();
+            // services.AddScoped<IAuthenticationCommandService, AuthenticationCommandService>();
+            // services.AddScoped<IAuthenticationQueriesService, AuthenticationQueriesService>();
+            services.AddMediatR(typeof(DependencyInjection).Assembly);
 
             return services;
         }
