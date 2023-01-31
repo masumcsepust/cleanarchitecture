@@ -111,7 +111,9 @@ C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Domain.pdb
 E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Domain.dll
 E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\cleanarchitecture.Domain.pdb
-C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\OneOf.dll
 E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\FluentResults.dll
 E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\ErrorOr.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\ErrorOr.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\FluentResults.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll

@@ -1,49 +1,49 @@
-using cleanarchitecture.Application.Common.Errors;
 using cleanarchitecture.Application.Common.Interfaces.Authentication;
 using cleanarchitecture.Application.Common.Interfaces.Persistence;
+using cleanarchitecture.Application.Services.Authentication.Common;
 using cleanarchitecture.Domain.Common.Errors;
 using cleanarchitecture.Domain.Entities;
 using ErrorOr;
 
-namespace cleanarchitecture.Application.Services.Authentication;
+namespace cleanarchitecture.Application.Services.Authentication.Queries;
 
-public class AuthenticationService: IAuthenticationService
+public class AuthenticationQueriesService: IAuthenticationQueriesService
 {
     private readonly IJwtTokenGenerator _iJwtTokenGenerator;
     private readonly IUserRepository _iUserRepository;
-public AuthenticationService(IJwtTokenGenerator iJwtTokenGenerator, IUserRepository iUserRepository)
+public AuthenticationQueriesService(IJwtTokenGenerator iJwtTokenGenerator, IUserRepository iUserRepository)
     {
         _iJwtTokenGenerator = iJwtTokenGenerator;
         _iUserRepository = iUserRepository;
     }
 
     //public Result<AuthenticationResult> Register(string firstName, string lastName, string email, string password)
-    public ErrorOr<AuthenticationResult> Register(string firstName, string lastName, string email, string password)
-    {
-        // 1. valid the user doesn't exist
-        if(_iUserRepository.GetUserByEmail(email) is not null) 
-        {
-            return Errors.User.DuplicateEmail;//Result.Fail<AuthenticationResult>(new[] { new DuplicateEmailError() });
-        }
+    // public ErrorOr<AuthenticationResult> Register(string firstName, string lastName, string email, string password)
+    // {
+    //     // 1. valid the user doesn't exist
+    //     if(_iUserRepository.GetUserByEmail(email) is not null) 
+    //     {
+    //         return Errors.User.DuplicateEmail;//Result.Fail<AuthenticationResult>(new[] { new DuplicateEmailError() });
+    //     }
 
 
-        // 2. Create user (generate unique id) & Persist to DB
-        var user = new User {
-            FirstName = firstName,
-            LastName = lastName,
-            Email = email,
-            Password = password,
-        };
+    //     // 2. Create user (generate unique id) & Persist to DB
+    //     var user = new User {
+    //         FirstName = firstName,
+    //         LastName = lastName,
+    //         Email = email,
+    //         Password = password,
+    //     };
 
-        _iUserRepository.Add(user);
+    //     _iUserRepository.Add(user);
 
-        // create JWT token
-        var token = _iJwtTokenGenerator.GenerateToken(user);
-        return new AuthenticationResult(
-            user,
-            token
-        );
-    }
+    //     // create JWT token
+    //     var token = _iJwtTokenGenerator.GenerateToken(user);
+    //     return new AuthenticationResult(
+    //         user,
+    //         token
+    //     );
+    // }
 
     public ErrorOr<AuthenticationResult> Login(string email, string password)
     {

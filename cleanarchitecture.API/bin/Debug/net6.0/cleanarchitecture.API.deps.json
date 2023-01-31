@@ -11,6 +11,7 @@
           "Swashbuckle.AspNetCore": "6.2.3",
           "cleanarchitecture.Application": "1.0.0",
           "cleanarchitecture.Contracts": "1.0.0",
+          "cleanarchitecture.Domain": "1.0.0",
           "cleanarchitecture.Infrastructure": "1.0.0",
           "FluentResults": "3.15.1"
         },

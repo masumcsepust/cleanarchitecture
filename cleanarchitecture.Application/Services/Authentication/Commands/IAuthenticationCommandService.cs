@@ -1,13 +1,11 @@
-using cleanarchitecture.Application.Common.Errors;
+using cleanarchitecture.Application.Services.Authentication.Common;
 using ErrorOr;
-using FluentResults;
 
-namespace cleanarchitecture.Application.Services.Authentication
+namespace cleanarchitecture.Application.Services.Authentication.Commands
 {
-    public interface IAuthenticationService
+    public interface IAuthenticationCommandService
     {
         //Result<AuthenticationResult> Register(string FirstName, string LastName, string Email, string Password);
         ErrorOr<AuthenticationResult> Register(string FirstName, string LastName, string Email, string Password);
-        ErrorOr<AuthenticationResult> Login(string Email, string Password);
     }
 }

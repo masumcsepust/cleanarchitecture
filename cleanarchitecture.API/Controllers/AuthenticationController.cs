@@ -1,12 +1,10 @@
-using cleanarchitecture.Application.Common.Errors;
-using cleanarchitecture.Application.Services;
-using cleanarchitecture.Application.Services.Authentication;
 using cleanarchitecture.Contracts.Authentication;
 using ErrorOr;
-using FluentResults;
 using Microsoft.AspNetCore.Mvc;
 using cleanarchitecture.Domain.Common.Errors;
-
+using cleanarchitecture.Application.Services.Authentication.Commands;
+using cleanarchitecture.Application.Services.Authentication.Queries;
+using cleanarchitecture.Application.Services.Authentication.Common;
 
 namespace cleanarchitecture.API.Controllers
 {
@@ -15,11 +13,14 @@ namespace cleanarchitecture.API.Controllers
     //[ErrorHandlingFilterAttribute]
     public class AuthenticationController : ApiController
     {
-        private readonly IAuthenticationService _authenticationService;
+        private readonly IAuthenticationCommandService _authenticationCommandsService;
+        private readonly IAuthenticationQueriesService _authenticationQueriesService;
 
-        public AuthenticationController(IAuthenticationService authenticationService)
+        public AuthenticationController(IAuthenticationCommandService authenticationCommandsService,
+        IAuthenticationQueriesService authenticationQueriesService)
         {
-            _authenticationService = authenticationService;
+            _authenticationCommandsService = authenticationCommandsService;
+            _authenticationQueriesService = authenticationQueriesService;
         }
 
         [HttpPost("register")]
@@ -84,7 +85,7 @@ namespace cleanarchitecture.API.Controllers
             //     return Problem(statusCode: StatusCodes.Status409Conflict, title: "Email already exists");
             //return Problem();
             
-            ErrorOr<AuthenticationResult> registerResult = _authenticationService.Register(
+            ErrorOr<AuthenticationResult> registerResult = _authenticationCommandsService.Register(
                 request.FirstName, 
                 request.LastName, 
                 request.Email, 
@@ -123,7 +124,7 @@ namespace cleanarchitecture.API.Controllers
         [HttpPost("login")]
         public IActionResult Login(LoginRequest request) 
         {
-            ErrorOr<AuthenticationResult> authResult = _authenticationService.Login(
+            ErrorOr<AuthenticationResult> authResult = _authenticationQueriesService.Login(
                 request.Email, 
                 request.Password
                 );

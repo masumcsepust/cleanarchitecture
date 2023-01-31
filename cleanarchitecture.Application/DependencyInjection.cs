@@ -1,4 +1,5 @@
-using cleanarchitecture.Application.Services.Authentication;
+using cleanarchitecture.Application.Services.Authentication.Commands;
+using cleanarchitecture.Application.Services.Authentication.Queries;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace cleanarchitecture.Application
@@ -7,7 +8,8 @@ namespace cleanarchitecture.Application
     {
         public static IServiceCollection AddApplication(this IServiceCollection services) 
         {
-            services.AddScoped<IAuthenticationService, AuthenticationService>();
+            services.AddScoped<IAuthenticationCommandService, AuthenticationCommandService>();
+            services.AddScoped<IAuthenticationQueriesService, AuthenticationQueriesService>();
 
             return services;
         }
