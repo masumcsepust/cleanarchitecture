@@ -7,6 +7,7 @@ using cleanarchitecture.Application.Services.Authentication.Queries;
 using cleanarchitecture.Application.Services.Authentication.Common;
 using MediatR;
 using cleanarchitecture.Application.Authentication.Commands;
+using cleanarchitecture.Application.Authentication.Queries;
 
 namespace cleanarchitecture.API.Controllers
 {
@@ -25,9 +26,9 @@ namespace cleanarchitecture.API.Controllers
         //     _authenticationQueriesService = authenticationQueriesService;
         // }
 
-        private readonly IMediator _mediator;
+        private readonly ISender _mediator;
 
-        public AuthenticationController(IMediator mediator)
+        public AuthenticationController(ISender mediator)
         {
             _mediator = mediator;
         }
@@ -139,38 +140,42 @@ namespace cleanarchitecture.API.Controllers
             );
         }
 
-        // [HttpPost("login")]
-        // public IActionResult Login(LoginRequest request) 
-        // {
-        //     ErrorOr<AuthenticationResult> authResult = _authenticationQueriesService.Login(
-        //         request.Email, 
-        //         request.Password
-        //         );
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(LoginRequest request) 
+        {
+            // ErrorOr<AuthenticationResult> authResult = _authenticationQueriesService.Login(
+            //     request.Email, 
+            //     request.Password
+            //     );
 
 
-        //     // var response = new AuthenticationResponse(
-        //     //     authResult.user.Id,
-        //     //     authResult.user.FirstName,
-        //     //     authResult.user.LastName,
-        //     //     authResult.user.Email,
-        //     //     authResult.Token
-        //     // );
-        //     // return authResult.MatchFirst(
-        //     //     authResult => Ok(NewMethod(authResult)),
-        //     //     firstError => Problem(statusCode: StatusCodes.Status409Conflict, title: firstError.Description)
-        //     // );
-        //     //return Ok(response);
-        //     if(authResult.IsError && authResult.FirstError==Errors.Authentication.InvalidCredential)
-        //         return 
-        //             Problem(
-        //                 statusCode: StatusCodes.Status401Unauthorized, 
-        //                 title: authResult.FirstError.Description
-        //             );
+            // var response = new AuthenticationResponse(
+            //     authResult.user.Id,
+            //     authResult.user.FirstName,
+            //     authResult.user.LastName,
+            //     authResult.user.Email,
+            //     authResult.Token
+            // );
+            // return authResult.MatchFirst(
+            //     authResult => Ok(NewMethod(authResult)),
+            //     firstError => Problem(statusCode: StatusCodes.Status409Conflict, title: firstError.Description)
+            // );
+            //return Ok(response);
+            var query = new LoginQuery(request.Email, request.Password);
 
-        //     return authResult.Match(
-        //         authResult => Ok(MapAuthResult(authResult)),
-        //         errors => Problem(errors)
-        //     );
-        // }
+            ErrorOr<AuthenticationResult> authResult = await _mediator.Send(query);
+
+            if(authResult.IsError && authResult.FirstError==Errors.Authentication.InvalidCredential)
+                return 
+                    Problem(
+                        statusCode: StatusCodes.Status401Unauthorized, 
+                        title: authResult.FirstError.Description
+                    );
+
+            return authResult.Match(
+                authResult => Ok(MapAuthResult(authResult)),
+                errors => Problem(errors)
+            );
+        }
     }
 }
