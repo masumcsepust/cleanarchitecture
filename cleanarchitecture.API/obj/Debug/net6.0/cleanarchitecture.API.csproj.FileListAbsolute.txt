@@ -120,3 +120,6 @@ C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API
 E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\MediatR.dll
 E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\MediatR.Contracts.dll
 E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Mapster.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Mapster.Core.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Mapster.DependencyInjection.dll

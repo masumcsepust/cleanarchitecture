@@ -8,6 +8,7 @@ using cleanarchitecture.Application.Services.Authentication.Common;
 using MediatR;
 using cleanarchitecture.Application.Authentication.Commands;
 using cleanarchitecture.Application.Authentication.Queries;
+using MapsterMapper;
 
 namespace cleanarchitecture.API.Controllers
 {
@@ -27,10 +28,12 @@ namespace cleanarchitecture.API.Controllers
         // }
 
         private readonly ISender _mediator;
+        private readonly IMapper _mapper;
 
-        public AuthenticationController(ISender mediator)
+        public AuthenticationController(ISender mediator, IMapper mapper)
         {
             _mediator = mediator;
+            _mapper = mapper;
         }
 
         [HttpPost("register")]
@@ -102,17 +105,23 @@ namespace cleanarchitecture.API.Controllers
             //     request.Password
             // );
 
-            var command = new RegisterCommand(
-                request.FirstName, 
-                request.LastName, 
-                request.Email, 
-                request.Password
-            );
+            // var command = new RegisterCommand(
+            //     request.FirstName, 
+            //     request.LastName, 
+            //     request.Email, 
+            //     request.Password
+            // );
+
+            var command = _mapper.Map<RegisterCommand>(request);
 
             ErrorOr<AuthenticationResult> authResult = await _mediator.Send(command);
 
+            // return authResult.Match(
+            //     authResult => Ok(MapAuthResult(authResult)),
+            //     errors => Problem(errors)
+            // );
             return authResult.Match(
-                registerResult => Ok(MapAuthResult(registerResult)),
+                authResult => Ok(_mapper.Map<AuthenticationResponse>(authResult)),
                 errors => Problem(errors)
             );
 
@@ -161,7 +170,8 @@ namespace cleanarchitecture.API.Controllers
             //     firstError => Problem(statusCode: StatusCodes.Status409Conflict, title: firstError.Description)
             // );
             //return Ok(response);
-            var query = new LoginQuery(request.Email, request.Password);
+            // var query = new LoginQuery(request.Email, request.Password);
+            var query = _mapper.Map<LoginQuery>(request);
 
             ErrorOr<AuthenticationResult> authResult = await _mediator.Send(query);
 
@@ -172,8 +182,13 @@ namespace cleanarchitecture.API.Controllers
                         title: authResult.FirstError.Description
                     );
 
+            // return authResult.Match(
+            //     authResult => Ok(MapAuthResult(authResult)),
+            //     errors => Problem(errors)
+            // );
+
             return authResult.Match(
-                authResult => Ok(MapAuthResult(authResult)),
+                authResult => Ok(_mapper.Map<AuthenticationResponse>(authResult)),
                 errors => Problem(errors)
             );
         }

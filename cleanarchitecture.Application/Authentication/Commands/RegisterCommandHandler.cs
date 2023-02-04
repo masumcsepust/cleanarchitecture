@@ -21,6 +21,7 @@ public RegisterCommandHandler(IJwtTokenGenerator iJwtTokenGenerator, IUserReposi
     }
     public async Task<ErrorOr<AuthenticationResult>> Handle(RegisterCommand command, CancellationToken cancellationToken)
     {
+        await Task.CompletedTask;
         // 1. valid the user doesn't exist
         if(_iUserRepository.GetUserByEmail(command.Email) is not null) 
         {

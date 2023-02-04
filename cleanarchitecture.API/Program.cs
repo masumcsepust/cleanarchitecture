@@ -4,18 +4,20 @@ using cleanarchitecture.API.Filters;
 using cleanarchitecture.API.Common.Errors;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Diagnostics;
+using cleanarchitecture.API;
 
 var builder = WebApplication.CreateBuilder(args);
 {
     //builder.Services.AddControllers(options => options.Filters.Add<ErrorHandlingFilterAttribute>());
-    builder.Services.AddControllers();
+    //builder.Services.AddControllers();
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
     builder.Services
+            .AddPresentation()
             .AddApplication()
             .AddInfrastructure(builder.Configuration);
 
-    builder.Services.AddSingleton<ProblemDetailsFactory, CleanArchitectureProblemDetailsFactory>();
+    //builder.Services.AddSingleton<ProblemDetailsFactory, CleanArchitectureProblemDetailsFactory>();
 }
 
 var app = builder.Build();
