@@ -132,3 +132,6 @@ C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\FluentValidation.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

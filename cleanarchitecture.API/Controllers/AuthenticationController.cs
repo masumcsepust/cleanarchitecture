@@ -2,8 +2,6 @@ using cleanarchitecture.Contracts.Authentication;
 using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
 using cleanarchitecture.Domain.Common.Errors;
-using cleanarchitecture.Application.Services.Authentication.Commands;
-using cleanarchitecture.Application.Services.Authentication.Queries;
 using cleanarchitecture.Application.Services.Authentication.Common;
 using MediatR;
 using cleanarchitecture.Application.Authentication.Commands;
