@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj": {}
+    "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\projects\\cleanarchitecture\\cleanarchitecture.Application\\cleanarchitecture.Application.csproj": {
+    "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Application\\cleanarchitecture.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Application\\cleanarchitecture.Application.csproj",
+        "projectUniqueName": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Application\\cleanarchitecture.Application.csproj",
         "projectName": "cleanarchitecture.Application",
-        "projectPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Application\\cleanarchitecture.Application.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Application\\obj\\",
+        "projectPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Application\\cleanarchitecture.Application.csproj",
+        "packagesPath": "C:\\Users\\SHAHIN RAHAMAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SHAHIN RAHAMAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj": {
-                "projectPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj"
+              "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj": {
+                "projectPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj"
               }
             }
           }
@@ -52,6 +52,14 @@
             "ErrorOr": {
               "target": "Package",
               "version": "[1.2.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
             },
             "MediatR": {
               "target": "Package",
@@ -94,20 +102,20 @@
         }
       }
     },
-    "E:\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj": {
+    "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj",
         "projectName": "cleanarchitecture.Domain",
-        "projectPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\obj\\",
+        "projectPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\cleanarchitecture.Domain.csproj",
+        "packagesPath": "C:\\Users\\SHAHIN RAHAMAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SHAHIN RAHAMAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -160,20 +168,20 @@
         }
       }
     },
-    "E:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj": {
+    "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj",
         "projectName": "cleanarchitecture.Infrastructure",
-        "projectPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\cleanarchitecture.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\SHAHIN RAHAMAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SHAHIN RAHAMAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -189,8 +197,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\projects\\cleanarchitecture\\cleanarchitecture.Application\\cleanarchitecture.Application.csproj": {
-                "projectPath": "E:\\projects\\cleanarchitecture\\cleanarchitecture.Application\\cleanarchitecture.Application.csproj"
+              "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Application\\cleanarchitecture.Application.csproj": {
+                "projectPath": "C:\\Users\\SHAHIN RAHAMAN\\Desktop\\projects\\cleanarchitecture\\cleanarchitecture.Application\\cleanarchitecture.Application.csproj"
               }
             }
           }

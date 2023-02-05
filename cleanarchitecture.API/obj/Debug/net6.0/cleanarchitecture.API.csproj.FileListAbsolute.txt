@@ -123,3 +123,12 @@ E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\MediatR.Ext
 E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Mapster.dll
 E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Mapster.Core.dll
 E:\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Mapster.DependencyInjection.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Mapster.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Mapster.Core.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\Mapster.DependencyInjection.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\MediatR.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\SHAHIN RAHAMAN\Desktop\projects\cleanarchitecture\cleanarchitecture.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
